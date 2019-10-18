@@ -4,10 +4,5 @@ curl "http://localhost:4741/stocks/${ID}" \
   --include \
   --request DELETE \
   --header "Authorization: Token token=${TOKEN}" \
-  --data '{
-  "stock": {
-    "id": "'${ID}'"
-  }
-}'
 
 echo

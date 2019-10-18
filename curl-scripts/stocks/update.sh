@@ -10,8 +10,7 @@ curl "http://localhost:4741/stocks/${ID}" \
       "name": "'"${NAME}"'",
       "purchase_on": "'"${PURCHASE_ON}"'",
       "start_price": "'"${START_PRICE}"'",
-      "end_price": "'"${END_PRICE}"'",
-      "user_id": "'"${ID}"'"
+      "end_price": "'"${END_PRICE}"'"
     }
   }'
   echo
