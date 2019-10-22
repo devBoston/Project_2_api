@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ExamplesController < OpenController
+class ExamplesController < OpenReadController
   before_action :set_example, only: %i[update destroy]
 
   # GET /examples
