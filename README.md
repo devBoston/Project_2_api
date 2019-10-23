@@ -1,3 +1,25 @@
-Rails[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+## Ruby on Rails API
 
-Heres my own content for 2nd project
+This is the back end to my full-stack project.
+
+## Resources
+Ruby on Rails HTML 
+
+## Planning
+I started this project by drafting user stories and wireframes, along with an ERD. The next step was to scaffold the resource and test that all the actions were working with curl scripts. Once the end points were connected, I was able to deploy my server and started to work on the front end. 
+
+## Unsolved Problems
+I would like to add a many-to-many relationship in the resources to make my project a little more complex. 
+
+## Links
+Link to API: https://github.com/ssuchir/Project_2_api
+Link to website: https://ssuchir.github.io/Portfolio-Client/
+Link to wireframes: https://imgur.com/xuY3c9a
+Link to ERD: https://imgur.com/UybeZhj
+
+  User Stories:
+  As a user, I want to be able to sign up/in/out and change password. 
+  As a user, I want to input a stock with a name, price, and date into my portfolio.
+  As a user, I want to be able to view and update stock’s price, or delete it from my portfolio.
+  As a user, I want to be able to check ROI for stocks in my portfolio.
+
