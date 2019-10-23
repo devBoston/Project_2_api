@@ -12,13 +12,16 @@ I started this project by drafting user stories and wireframes, along with an ER
 I would like to add a many-to-many relationship in the resources to make my project a little more complex. 
 
 ## Links
-Link to front-end repo: https://github.com/ssuchir/Portfolio-Client
+
+Link to Front End Repo: https://github.com/ssuchir/Portfolio-Client
 
 Link to API: https://github.com/ssuchir/Project_2_api
 
-Link to website: https://ssuchir.github.io/Portfolio-Client/
+Link to Website: https://ssuchir.github.io/Portfolio-Client/
 
-Link to wireframes: https://imgur.com/xuY3c9a
+Link to Deployed API: https://protected-garden-58017.herokuapp.com/
+
+Link to Wireframes: https://imgur.com/xuY3c9a
 
 Link to ERD: https://imgur.com/UybeZhj
 
