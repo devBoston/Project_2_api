@@ -13,13 +13,21 @@ I would like to add a many-to-many relationship in the resources to make my proj
 
 ## Links
 Link to API: https://github.com/ssuchir/Project_2_api
+
 Link to website: https://ssuchir.github.io/Portfolio-Client/
+
 Link to wireframes: https://imgur.com/xuY3c9a
+
 Link to ERD: https://imgur.com/UybeZhj
 
+
   User Stories:
+  
   As a user, I want to be able to sign up/in/out and change password. 
+  
   As a user, I want to input a stock with a name, price, and date into my portfolio.
+  
   As a user, I want to be able to view and update stock’s price, or delete it from my portfolio.
+  
   As a user, I want to be able to check ROI for stocks in my portfolio.
 
