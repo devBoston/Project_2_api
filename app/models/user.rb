@@ -3,4 +3,5 @@
 class User < ApplicationRecord
   include Authentication
   has_many :stocks
+  has_many :bonds
 end

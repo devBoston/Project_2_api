@@ -1,0 +1,13 @@
+# Ex: TOKEN=tokengoeshere ID=idgoeshere sh curl-scripts/examples/show.sh
+
+curl "http://localhost:4741/bonds/${ID}" \
+  --include \
+  --request GET \
+  --header "Content-Type: application/json" \
+  --header "Authorization: Token token=${TOKEN}" \
+#   '{
+#   "bond": {
+#     "id": "'"${ID}"'"
+#   }
+# }'
+echo
