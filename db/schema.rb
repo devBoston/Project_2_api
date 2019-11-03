@@ -10,10 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_17_145412) do
+ActiveRecord::Schema.define(version: 2019_11_02_234211) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "bonds", force: :cascade do |t|
+    t.string "name"
+    t.date "purchase_on"
+    t.integer "start_price"
+    t.integer "end_price"
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_bonds_on_user_id"
+  end
 
   create_table "examples", force: :cascade do |t|
     t.text "text", null: false
@@ -44,6 +55,7 @@ ActiveRecord::Schema.define(version: 2019_10_17_145412) do
     t.index ["token"], name: "index_users_on_token", unique: true
   end
 
+  add_foreign_key "bonds", "users"
   add_foreign_key "examples", "users"
   add_foreign_key "stocks", "users"
 end
