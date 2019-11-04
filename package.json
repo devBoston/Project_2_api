@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ssuchir/Project_2_api/issues"
   },
-  "homepage": "https://github.com/ssuchir/Project_2_api#readme"
+  "homepage": "https://github.com/ssuchir/Project_2_api#readme",
+  "dependencies": {
+    "db-migrate": "^0.11.6"
+  }
 }
